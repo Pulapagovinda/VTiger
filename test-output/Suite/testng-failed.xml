@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Vtiger.GenericUtility.ListrImplimentation"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Vtiger.OrganizationTests.CreateOrgWithIndustryTest">
+        <methods>
+          <include name="acConfig"/>
+          <include name="bsConfig"/>
+          <include name="amConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="CreOrgWithIndTest"/>
+          <include name="asConfig"/>
+        </methods>
+      </class> <!-- Vtiger.OrganizationTests.CreateOrgWithIndustryTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
